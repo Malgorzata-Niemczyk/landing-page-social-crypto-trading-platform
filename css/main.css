@@ -52,6 +52,7 @@ html {
 .navbar__links li a {
     padding: 10px;
     text-decoration: none;
+    color: #072392;
 }
 
 /* CONTACT SECTION */
@@ -120,6 +121,7 @@ html {
 .footer__contact-info__email {
     flex-direction: column;
     align-items: center;
+    margin-left: 120px;
 }
 
 .footer__contact-info__email a {
