@@ -122,7 +122,7 @@ html {
     align-items: center;
 }
 
-.footer__contact-info__email p:last-child {
+.footer__contact-info__email a {
     color: #0F81FF;
     text-decoration: underline;
 }
@@ -135,7 +135,7 @@ html {
 .footer__links ul li {
     list-style-type: none;
     margin-top: 20px;
-    padding: 0 55px;
+    padding: 0 25px;
     text-align: center;
     border-right: 2px solid rgb(167, 167, 167);
 }
@@ -145,6 +145,7 @@ html {
 }
 
 .footer__links ul li a {
+    padding: 10px;
     color: #000;
     text-decoration: none;
 }
