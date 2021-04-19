@@ -7,6 +7,26 @@
 }
 
 body {
+    max-width: 90%;
+    margin: 0 auto;
     background-color: #F2F2F2;
     font-family: 'Sen', sans-serif;
+}
+
+
+/* NAVIGATION */
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar__links {
+    display: flex;
+}
+
+.navbar__links li {
+    margin-left: 25px;
+}
+
+.navbar__links li a {
+    text-decoration: none;
 }
