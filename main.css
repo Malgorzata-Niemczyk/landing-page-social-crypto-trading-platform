@@ -12,6 +12,10 @@ body {
     font-family: 'Sen', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar__logo, .footer__logo {
     font-size: 35px;
     color: #072392;
