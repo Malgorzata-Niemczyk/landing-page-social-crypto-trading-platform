@@ -32,25 +32,27 @@ body {
 }
 
 /* FOOTER */
-.footer__contact-info {
+.footer__contact-info, .footer__contact-info__email, .footer__links ul {
     display: flex;
+}
+
+.footer__contact-info {
     justify-content: space-between;
 }
 
 .footer__contact-info__email {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer__links ul {
-    display: flex;
     justify-content: center;
     
 }
 
 .footer__links ul li {
     list-style-type: none;
+    margin: 20px 0;
     padding: 0 55px;
     text-align: center;
     border-right: 2px solid rgb(139, 139, 139);
