@@ -19,6 +19,7 @@ body {
 
 .team__heading, .contact__heading {
     letter-spacing: 10px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -49,6 +50,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 35px;
     color: #F2F2F2;
     background-color: #252B42;
 }
@@ -57,6 +59,36 @@ body {
     text-align: center;
 }
 
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #4250BF;
+}
+
+.contact__form input {
+    margin: 20px 0;
+    padding: 10px 25px;
+    border: none;
+}
+
+.contact__form__input--name, .contact__form__input--email {
+    border-radius: 30px;
+}
+
+.contact__form__btn {
+    align-self: flex-start;
+    padding: 10px 30px;
+    font-weight: 600;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 30px;
+    background-color: #38A5DB;
+}
 
 /* FOOTER */
 .footer {
