@@ -1,0 +1,25 @@
+/* max-width: 768px */
+.navbar__links li {
+    margin-left: 5px;
+}
+
+.navbar__links li a {
+    padding: 5px;
+}
+
+.footer__links ul {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 658px) {
+    .footer__contact-info {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footer__contact-info__email {
+        margin-left: 0;
+        margin-bottom: 35px;
+    }
+}

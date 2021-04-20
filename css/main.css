@@ -36,6 +36,10 @@ html {
     z-index: 50;
 }
 
+.navbar__logo {
+    padding-top: 10px;
+}
+
 .navbar ul li {
     list-style-type: none;
 }
@@ -106,7 +110,6 @@ html {
 
 /* FOOTER */
 .footer {
-    padding: 45px 18px 25px;
     background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
 }
 
@@ -116,6 +119,7 @@ html {
 
 .footer__contact-info {
     justify-content: space-between;
+    padding: 45px 18px 25px;
 }
 
 .footer__contact-info__email {
@@ -131,7 +135,8 @@ html {
 
 .footer__links ul {
     justify-content: center;
-    
+    margin-bottom: 0;
+    padding-bottom: 20px;  
 }
 
 .footer__links ul li {
@@ -139,7 +144,7 @@ html {
     margin-top: 20px;
     padding: 0 25px;
     text-align: center;
-    border-right: 2px solid rgb(167, 167, 167);
+    border-right: 2px solid rgb(175, 175, 175);
 }
 
 .footer__links ul li:last-child {

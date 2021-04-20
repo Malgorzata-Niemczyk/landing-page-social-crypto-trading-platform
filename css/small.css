@@ -1,0 +1,26 @@
+/* max-width: 576px */
+.contact__form {
+    max-width: 350px;
+}
+
+.footer__links {
+    background-color: #fff;
+}
+
+.footer__links ul li {
+    border-right: none;
+}
+
+
+@media screen and (max-width: 387px) {
+    .contact__form {
+        max-width: 240px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .navbar__logo, .footer__logo {
+        font-size: 30px;
+    }
+}
