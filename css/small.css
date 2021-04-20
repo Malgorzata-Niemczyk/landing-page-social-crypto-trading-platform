@@ -11,6 +11,9 @@
     border-right: none;
 }
 
+.team__cards__wrapper {
+    display: none;
+}
 
 @media screen and (max-width: 387px) {
     .contact__form {

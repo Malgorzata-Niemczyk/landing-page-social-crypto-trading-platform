@@ -109,6 +109,41 @@ html {
     font-size: 45px;
 }
 
+/* TEAM SECTION */
+#team {
+    padding: 45px 18px;
+}
+
+.team__heading {
+    margin-bottom: 45px;
+}
+
+.team__cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 15px;
+}
+
+.team__image {
+    border-radius: 50%;
+}
+
+.card-title {
+    color: #38A5DB;
+}
+
+.team__media-ico a i {
+    color: black;
+    padding: 5px 20px;
+    margin: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 3px;
+}
+
 /* CONTACT SECTION */
 .contact {
     display: flex;
