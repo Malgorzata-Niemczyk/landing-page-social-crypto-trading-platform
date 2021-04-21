@@ -15,10 +15,6 @@
     display: none;
 }
 
-.header__subscribe__email--mobile input {
-    margin-bottom: 20px;
-}
-
 .header__subscribe__email--mobile button {
     transform: none;
     width: 280px;
@@ -31,8 +27,17 @@
     }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 320px) {
     .navbar__logo, .footer__logo {
         font-size: 30px;
+    }
+
+    .navbar, .header--mobile, .footer__contact-info {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .video__mobile__img {
+        margin: 0 20px;
     }
 }

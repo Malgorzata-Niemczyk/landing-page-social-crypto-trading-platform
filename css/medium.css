@@ -12,6 +12,23 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 684px) {
+    .header__subscribe__email--mobile button {
+        transform: none;
+        width: 400px;
+    }
+
+    .header__subscribe__email--mobile input {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .header__subscribe__email--mobile button {
+        width: 280px;
+    }
+}
+
 @media screen and (max-width: 658px) {
     .footer__contact-info {
         flex-direction: column;
