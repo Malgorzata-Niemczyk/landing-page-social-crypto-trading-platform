@@ -61,7 +61,30 @@ html {
 
 /* HEADER */
 .header {
+    padding: 50px 18px;
     background-color: #4250BF;
+}
+.header__top, .header__social-ico, .header__arrow-btn {
+    display: flex;
+}
+
+.header__top {
+    justify-content: space-between;
+}
+
+.header__subscribe {
+    margin-top: 25px;
+}
+
+.header__social-ico {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.header__arrow-btn {
+    justify-content: center;
 }
 
 .header__heading, .header__subscribe label, .header__subscribe__email button, .header__social-ico a, .header__arrow-btn i {
@@ -73,7 +96,7 @@ html {
     border: none;
 }
 
-.header__img__wrapper img {
+.header__img {
     width: 638px;
     height: 425px;
     object-fit: cover;
@@ -98,11 +121,11 @@ html {
 }
 
 .header__social-ico a:nth-child(1) {
- padding: 8px 9px;
+ padding: 8px 12px;
 }
 
 .header__social-ico a:nth-child(2) {
-    padding: 8px 13px;
+    padding: 8px 15px;
 }
 
 .header__arrow-btn i {
