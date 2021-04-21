@@ -22,4 +22,14 @@
         margin-left: 0;
         margin-bottom: 35px;
     }
+
+    .header__subscribe__email--mobile, .header__subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__subscribe__email--mobile input {
+        width: 280px;
+    }
 }

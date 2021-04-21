@@ -15,6 +15,15 @@
     display: none;
 }
 
+.header__subscribe__email--mobile input {
+    margin-bottom: 20px;
+}
+
+.header__subscribe__email--mobile button {
+    transform: none;
+    width: 280px;
+}
+
 @media screen and (max-width: 387px) {
     .contact__form {
         max-width: 240px;
