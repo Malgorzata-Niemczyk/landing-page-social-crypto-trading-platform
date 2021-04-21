@@ -11,7 +11,7 @@
     border-right: none;
 }
 
-.team__cards__wrapper {
+.team__cards__wrapper, .header--desktop {
     display: none;
 }
 

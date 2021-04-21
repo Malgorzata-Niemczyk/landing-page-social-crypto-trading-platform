@@ -135,6 +135,18 @@ html {
     font-size: 45px;
 }
 
+/* VIDEO SECTION */
+.video__mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.video__mobile__img {
+    min-width: 200px;
+    margin: 0 35px;
+}
+
 /* TEAM SECTION */
 #team {
     padding: 45px 18px;
