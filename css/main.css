@@ -20,7 +20,11 @@ html {
 
 .navbar__logo, .footer__logo {
     font-size: 35px;
+}
+
+.navbar__logo li a, .footer__logo a {
     color: #072392;
+    text-decoration: none;
 }
 
 .team__heading, .contact__heading {
