@@ -33,6 +33,7 @@ html {
 .navbar {
     position: sticky;
     top: 0;
+    height: 80px;
     padding: 0 50px;
     background-color: #FFF;
     z-index: 50;
