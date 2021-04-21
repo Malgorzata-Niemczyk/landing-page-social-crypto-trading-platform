@@ -104,6 +104,20 @@ html {
     border: none;
 }
 
+.header__img--wrapper, .video__mobile {
+    position: relative;
+    cursor: pointer;
+}
+
+.fa-play-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #E71D36;
+}
+
 .header__img {
     width: 638px;
     height: 425px;
