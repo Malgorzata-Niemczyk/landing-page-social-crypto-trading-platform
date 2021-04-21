@@ -60,6 +60,10 @@ html {
     color: #072392;
 }
 
+.navbar__links li a:hover {
+    border-bottom: 2px solid #072392;
+}
+
 /* HEADER */
 .header--desktop, .header--mobile {
     padding: 50px 50px;
