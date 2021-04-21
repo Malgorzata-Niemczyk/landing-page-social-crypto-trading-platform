@@ -152,6 +152,12 @@ html {
     margin: 0 35px;
 }
 
+/* MODAL */
+.modal-title {
+    color: #38A5DB;
+    text-transform: uppercase;
+}
+
 /* TEAM SECTION */
 #team {
     padding: 45px 18px;

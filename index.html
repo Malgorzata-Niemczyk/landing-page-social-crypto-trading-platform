@@ -53,7 +53,9 @@
     <header class="header--desktop d-sm-none d-lg-block">
         <div class="header__top">
             <h1 class="header__heading">The first fully-automatic <br> social crypto trading <br> platform with real crypto <br> currency</h1>
-            <img src="./assets/img/swimming.jpg" alt="video preview" class="header__img">
+            <div data-toggle="modal" data-target="#exampleModal">
+                <img src="./assets/img/swimming.jpg" alt="video preview" class="header__img">
+            </div>
         </div>
         <div class="header__subscribe">
             <label for="subscribe">Subscribe and get the latest information</label>
@@ -71,8 +73,30 @@
         </a>
     </header>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Promo Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto w-100">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="./assets/video/croatia_travel-video.mp4" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <main>
-        <section class="video__mobile d-lg-none">
+        <section class="video__mobile d-lg-none" data-toggle="modal" data-target="#exampleModal">
             <img src="./assets/img/swimming.jpg" alt="video preview" class="video__mobile__img">
         </section>
 
