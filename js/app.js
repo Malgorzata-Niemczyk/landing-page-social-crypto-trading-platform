@@ -29,3 +29,48 @@ $(document).ready(function(){
         ]
     });
 });
+
+// displaying team information in a modal
+$(".card-text-1").click(function () {
+    let title = $(this).parents("div").find("#title-1").text();
+    let subtitle = $(this).parents("div").find("#subtitle-1").text();
+
+    let stringTitle = title;
+    $(".modal-title").html(stringTitle);
+
+    let stringSubtitle = subtitle;
+    $(".modal-subtitle").html(stringSubtitle);
+});
+
+$(".card-text-2").click(function () {
+    let title = $(this).parents("div").find("#title-2").text();
+    let subtitle = $(this).parents("div").find("#subtitle-2").text();
+
+    let stringTitle = title;
+    $(".modal-title").html(stringTitle);
+
+    let stringSubtitle = subtitle;
+    $(".modal-subtitle").html(stringSubtitle);
+});
+
+$(".card-text-3").click(function () {
+    let title = $(this).parents("div").find("#title-3").text();
+    let subtitle = $(this).parents("div").find("#subtitle-3").text();
+
+    let stringTitle = title;
+    $(".modal-title").html(stringTitle);
+
+    let stringSubtitle = subtitle;
+    $(".modal-subtitle").html(stringSubtitle);
+});
+
+$(".card-text-4").click(function () {
+    let title = $(this).parents("div").find("#title-4").text();
+    let subtitle = $(this).parents("div").find("#subtitle-4").text();
+
+    let stringTitle = title;
+    $(".modal-title").html(stringTitle);
+
+    let stringSubtitle = subtitle;
+    $(".modal-subtitle").html(stringSubtitle);
+});
