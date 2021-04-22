@@ -16,6 +16,15 @@
     margin-bottom: 0;
 }
 
+.navbar, .header--mobile, .footer__contact-info {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ .video__mobile__img {
+    margin: 30px 35px;
+}
+
 @media screen and (max-width: 684px) {
     .header__subscribe__email--mobile button {
         transform: none;

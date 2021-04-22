@@ -38,7 +38,7 @@ html {
     position: sticky;
     top: 0;
     height: 80px;
-    padding: 0 50px;
+    padding: 0 100px;
     background-color: #FFF;
     z-index: 50;
 }
@@ -76,7 +76,7 @@ nav .active {
 
 /* HEADER */
 .header--desktop, .header--mobile {
-    padding: 50px 50px;
+    padding: 80px 100px;
     box-shadow: 0px 4px 80px #263396;
     background-color: #4250BF;
 }
@@ -86,6 +86,7 @@ nav .active {
 
 .header__top {
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__subscribe {
@@ -133,8 +134,8 @@ nav .active {
 }
 
 .header__img {
-    width: 638px;
-    height: 425px;
+    width: 568px;
+    height: 365px;
     object-fit: cover;
 }
 
@@ -177,7 +178,7 @@ nav .active {
 
 .video__mobile__img {
     min-width: 200px;
-    margin: 0 35px;
+    margin: 30px 100px;
 }
 
 /* MODAL */
@@ -232,7 +233,7 @@ nav .active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 45px 0px;
+    padding: 65px 0px;
     color: #F2F2F2;
     background-color: #252B42;
 }
@@ -286,7 +287,7 @@ nav .active {
 
 .footer__contact-info {
     justify-content: space-between;
-    padding: 45px 50px 25px;
+    padding: 45px 100px 25px;
 }
 
 .footer__contact-info__email {
