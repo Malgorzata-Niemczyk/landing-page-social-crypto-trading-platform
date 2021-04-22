@@ -40,6 +40,10 @@
         top: -12% !important;
         right: -80% !important;
     }
+    
+    .header__heading {
+        font-size: 33px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -48,15 +52,15 @@
     }
 
     .navbar, .header--mobile, .footer__contact-info {
-        padding-left: 18px;
-        padding-right: 18px;
-    }
-
-    .video__mobile__img {
-        margin: 0 20px;
+        padding-left: 18px !important;
+        padding-right: 18px !important;
     }
 
     .fa-play-circle {
         font-size: 35px;
+    }
+
+    .video__mobile__img {
+        margin: 30px 18px !important;
     }
 }

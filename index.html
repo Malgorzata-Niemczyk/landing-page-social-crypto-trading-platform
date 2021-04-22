@@ -10,19 +10,26 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" media="screen and (max-width: 576px)" href="./css/small.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/medium.css"> 
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/medium.css">  
     <script src="https://kit.fontawesome.com/6e1e617458.js" crossorigin="anonymous"></script>
     <title>Social Crypto Trading Platform</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+
     <nav class="navbar">
         <ul class="navbar__logo">
-            <li>logo</li>
+            <li><a href="#">logo</a></li>
         </ul>
-        <ul class="navbar__links">
-            <li><a href="#">ICO</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul class="nav navbar__links">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">ICO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
         </ul>
     </nav>
 
@@ -59,7 +66,7 @@
         <div class="header__square square-3"></div>
         <div class="header__top">
             <h1 class="header__heading">The first fully-automatic <br> social crypto trading <br> platform with real crypto <br> currency</h1>
-            <div class="header__img--wrapper" data-toggle="modal" data-target="#exampleModal">
+            <div class="header__img--wrapper" data-toggle="modal" data-target="#videoModal">
                 <img src="./assets/img/swimming.jpg" alt="video preview" class="header__img">
                 <p><i class="fas fa-play-circle"></i></p>
             </div>
@@ -81,11 +88,11 @@
     </header>
 
     <!-- MODAL FOR THE PROMO VIDEO -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Promo Video</h5>
+                    <h5 class="video-title" id="videoModal">Promo Video</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -103,7 +110,7 @@
     </div>
 
     <main>
-        <section class="video__mobile d-lg-none" data-toggle="modal" data-target="#exampleModal">
+        <section class="video__mobile d-lg-none" data-toggle="modal" data-target="#videoModal">
             <img src="./assets/img/swimming.jpg" alt="video preview" class="video__mobile__img">
             <p><i class="fas fa-play-circle"></i></p>
         </section>
@@ -114,48 +121,48 @@
             <!-- TEAM FOR MOBILE DEVICES -->
 
             <div class="team__cards__slideshow d-lg-none">
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-1" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-1.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">Edgar Morrison</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">CEO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-1">Edgar Morrison</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-1">CEO</h6>
+                        <p class="card-text-1">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-2" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-2.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">Mae Martin</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">CTO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-2">Mae Martin</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-2">CTO</h6>
+                        <p class="card-text-2">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-3" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-3.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">David Bangs</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">CFO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-3">David Bangs</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-3">CFO</h6>
+                        <p class="card-text-3">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-4" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-4.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">Emily Parsons</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">COO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-4">Emily Parsons</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-4">COO</h6>
+                        <p class="card-text-4">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -167,48 +174,48 @@
             <!-- TEAM FOR DESKTOP DEVICES -->
 
             <div class="team__cards__wrapper d-sm-none d-lg-flex">
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-1" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-1.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">Edgar Morrison</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">CEO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-1">Edgar Morrison</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-1">CEO</h6>
+                        <p class="card-text-1">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-2" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-2.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">Mae Martin</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">CTO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-2">Mae Martin</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-2">CTO</h6>
+                        <p class="card-text-2">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-3" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-3.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">David Bangs</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">CFO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-3">David Bangs</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-3">CFO</h6>
+                        <p class="card-text-3">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;">
+                <div class="card card-4" style="width: 18rem;background-color: #F2F2F2; border: none; text-align: center;" data-toggle="modal" data-target="#teamModal">
                     <img class="card-img-top team__image" src="./assets/img/person-4.png" alt="Team member">
                     <div class="card-body">
-                        <h5 class="card-title">Emily Parsons</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">COO</h6>
-                        <p class="card-text">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+                        <h5 class="card-title" id="title-4">Emily Parsons</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="subtitle-4">COO</h6>
+                        <p class="card-text-4">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                         <div class="row justify-content-center team__media-ico">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -216,6 +223,37 @@
                     </div>
                 </div>
             </div>
+
+            <!-- MODAL FOR THE TEAM DETAILS -->
+            <div class="modal fade" id="teamModal" tabindex="-1" aria-labelledby="teamModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title-wrapper">
+                                <h5 class="modal-title" id="teamModal">Team Member</h5>
+                                <h6 class="modal-subtitle text-muted" id="teamModal">CEO</h6>
+                            </div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body mx-auto w-100">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ex quis modi impedit animi porro. At, iusto iure! Reiciendis qui tenetur esse. Nam, vero animi ullam reiciendis nobis accusamus architecto?
+                                Magni aliquam sed accusantium nostrum ducimus, error cum est illo ipsum dolore molestias quo reiciendis tempora numquam dolor eos quos odio eum? Hic placeat esse commodi aspernatur nulla deleniti eligendi?
+                                Libero nesciunt qui, ipsa aperiam dicta delectus facilis voluptas vero ullam nemo necessitatibus perferendis, deleniti quaerat quae eius omnis? Ducimus nulla eos repellendus consequuntur et totam, quisquam quam sed velit.
+                                Quasi quo non natus maxime aspernatur velit aut, quos temporibus quis aliquid veritatis, molestias optio animi blanditiis quia fuga! Iusto quas nihil molestias eveniet quasi blanditiis quod atque modi inventore?
+                                Laudantium eveniet libero nihil blanditiis exercitationem, architecto repudiandae aliquam, voluptas vel alias perspiciatis neque eius quam ad voluptate tenetur velit? Modi tempore atque, velit eligendi impedit repudiandae vero animi! Impedit.
+                                Tempore, sapiente consectetur dolores neque ducimus fugiat! Totam veritatis sed quasi molestias! Et nesciunt nam accusantium fugit libero hic alias aspernatur consequatur provident, incidunt, quo odio atque deleniti perspiciatis? Consectetur.
+                                Laudantium eveniet libero nihil blanditiis exercitationem, architecto repudiandae aliquam, voluptas vel alias perspiciatis neque eius quam ad voluptate tenetur velit? Modi tempore atque, velit eligendi impedit repudiandae vero animi! Impedit.
+                                Tempore, sapiente consectetur dolores neque ducimus fugiat! Totam veritatis sed quasi molestias! Et nesciunt nam accusantium fugit libero hic alias aspernatur consequatur provident, incidunt, quo odio atque deleniti perspiciatis? Consectetur.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </section>
 
         <section id="contact" class="contact">
@@ -235,7 +273,7 @@
     
     <footer class="footer">
         <section class="footer__contact-info">
-            <p class="footer__logo">logo</p>
+            <p class="footer__logo"><a href="#">logo</a></p>
             <div class="footer__contact-info__email">
                 <p>Contact us:</p>
                 <a href="mailto:have@nicecoding.io">have@nicecoding.io</a>

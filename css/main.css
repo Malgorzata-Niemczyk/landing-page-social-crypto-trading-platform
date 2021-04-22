@@ -7,6 +7,7 @@
 }
 
 body {
+    position: relative;
     margin: 0 auto;
     background-color: #F2F2F2;
     font-family: 'Sen', sans-serif;
@@ -19,7 +20,11 @@ html {
 
 .navbar__logo, .footer__logo {
     font-size: 35px;
+}
+
+.navbar__logo li a, .footer__logo a {
     color: #072392;
+    text-decoration: none;
 }
 
 .team__heading, .contact__heading {
@@ -32,7 +37,8 @@ html {
 .navbar {
     position: sticky;
     top: 0;
-    padding: 0 50px;
+    height: 80px;
+    padding: 0 100px;
     background-color: #FFF;
     z-index: 50;
 }
@@ -104,17 +110,22 @@ html {
     z-index: -10;
 }
 
+nav .active {
+    border-bottom: 2px solid #072392;
+}
+
 /* HEADER */
 .header--desktop, .header--mobile {
-    padding: 50px 50px;
-    /* background-color: #4250BF; */
+    padding: 80px 100px;
 }
+
 .header__top, .header__social-ico, .header__arrow-btn, .header__arrow-btn--mobile {
     display: flex;
 }
 
 .header__top {
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__subscribe {
@@ -162,8 +173,8 @@ html {
 }
 
 .header__img {
-    width: 638px;
-    height: 425px;
+    width: 568px;
+    height: 365px;
     object-fit: cover;
 }
 
@@ -206,13 +217,12 @@ html {
 
 .video__mobile__img {
     min-width: 200px;
-    margin: 0 35px;
+    margin: 30px 100px;
 }
 
 /* MODAL */
-.modal-title {
+.modal-title, .video-title {
     color: #38A5DB;
-    text-transform: uppercase;
 }
 
 /* TEAM SECTION */
@@ -233,6 +243,7 @@ html {
 .card {
     padding: 15px;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -261,7 +272,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 45px 0px;
+    padding: 65px 0px;
     color: #F2F2F2;
     background-color: #252B42;
 }
@@ -315,7 +326,7 @@ html {
 
 .footer__contact-info {
     justify-content: space-between;
-    padding: 45px 50px 25px;
+    padding: 45px 100px 25px;
 }
 
 .footer__contact-info__email {
