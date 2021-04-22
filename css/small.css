@@ -1,4 +1,8 @@
 /* max-width: 576px */
+.header--desktop, .header--mobile {
+    clip-path: polygon(0 0, 100% 0%, 100% 84%, 100% 100%, 0 92%);
+}
+
 .contact__form {
     max-width: 350px;
 }
