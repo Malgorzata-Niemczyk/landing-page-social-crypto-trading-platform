@@ -181,7 +181,7 @@ nav .active {
 }
 
 /* MODAL */
-.modal-title {
+.modal-title, .video-title {
     color: #38A5DB;
 }
 
