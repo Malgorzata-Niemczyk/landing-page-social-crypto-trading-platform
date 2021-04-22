@@ -23,6 +23,17 @@
     }
 }
 
+.square-1 {
+    height: 85%;
+}
+
+.square-3 {
+    top: -20%;
+    right: -45%;
+    width: 120%;
+    height: 110%;
+}
+
 @media screen and (max-width: 655px) {
     .header__subscribe__email--mobile button {
         width: 280px;

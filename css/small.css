@@ -20,10 +20,25 @@
     width: 280px;
 }
 
+.square-2 {
+    top: -20%;
+    right: -28%;
+    width: 150%;
+}
+
 @media screen and (max-width: 387px) {
     .contact__form {
         max-width: 240px;
         padding: 15px;
+    }
+
+    .square-1 {
+        top: 12%;
+    }
+
+    .square-3 {
+        top: -12% !important;
+        right: -80% !important;
     }
 }
 

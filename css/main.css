@@ -77,29 +77,29 @@ html {
 }
 
 .square-1 {
-    top: 30px;
-    left: -250px;
-    width: 1259px;
-    height: 663px;
+    top: 5%;
+    left: -15%;
+    width: 80%;
+    height: 80%;
     box-shadow: 0px 4px 130px #263396;
     z-index: -8;
 }
 
 .square-2 {
-    top: -200px;
-    right: 220px;
-    width: 1263px;
-    height: 612px;
+    top: -18%;
+    right: 8%;
+    width: 100%;
+    height: 80%;
     box-shadow: 0px 11px 106px #2A389D;
     background: #3947B6;
     z-index: -6;
 }
 
 .square-3 {
-    top: -220px;
-    right: -100px;
-    width: 1240px;
-    height: 908px;
+    top: -20%;
+    right: -5%;
+    width: 80%;
+    height: 110%;
     background: linear-gradient(85.66deg, #3847B5 41.37%, #253194 97.44%);
     z-index: -10;
 }
