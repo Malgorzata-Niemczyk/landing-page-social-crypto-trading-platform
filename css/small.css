@@ -44,4 +44,8 @@
     .fa-play-circle {
         font-size: 35px;
     }
+
+    .video__mobile__img {
+        margin: 30px 18px !important;
+    }
 }
