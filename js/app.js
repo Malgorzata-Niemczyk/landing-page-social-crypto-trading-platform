@@ -31,7 +31,7 @@ $(document).ready(function(){
 });
 
 // displaying team information in a modal
-$(".card-text-1").click(function () {
+$(".card-1").click(function () {
     let title = $(this).parents("div").find("#title-1").text();
     let subtitle = $(this).parents("div").find("#subtitle-1").text();
 
@@ -42,7 +42,7 @@ $(".card-text-1").click(function () {
     $(".modal-subtitle").html(stringSubtitle);
 });
 
-$(".card-text-2").click(function () {
+$(".card-2").click(function () {
     let title = $(this).parents("div").find("#title-2").text();
     let subtitle = $(this).parents("div").find("#subtitle-2").text();
 
@@ -53,7 +53,7 @@ $(".card-text-2").click(function () {
     $(".modal-subtitle").html(stringSubtitle);
 });
 
-$(".card-text-3").click(function () {
+$(".card-3").click(function () {
     let title = $(this).parents("div").find("#title-3").text();
     let subtitle = $(this).parents("div").find("#subtitle-3").text();
 
@@ -64,7 +64,7 @@ $(".card-text-3").click(function () {
     $(".modal-subtitle").html(stringSubtitle);
 });
 
-$(".card-text-4").click(function () {
+$(".card-4").click(function () {
     let title = $(this).parents("div").find("#title-4").text();
     let subtitle = $(this).parents("div").find("#subtitle-4").text();
 

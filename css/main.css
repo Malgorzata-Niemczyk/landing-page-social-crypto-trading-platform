@@ -203,14 +203,11 @@ nav .active {
 .card {
     padding: 15px;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .card:hover {
     transform: scale(0.9)
-}
-
-.card-text {
-    cursor: pointer;
 }
 
 .team__image {
